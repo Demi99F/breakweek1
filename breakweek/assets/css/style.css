@@ -1,0 +1,55 @@
+.img-overlay-wrap {
+  position: relative;
+  display: inline-block; /* <= shrinks container to image size */
+  transition: transform 150ms ease-in-out;
+}
+
+.img-overlay-wrap svg {
+  position:absolute;
+  top: 0;
+  left: 0;
+}
+
+.bal {
+    text-align: right;
+    position: relative;
+    animation-name: example;
+    animation-duration: 6s;
+    animation-delay: 2s;
+    animation-fill-mode: backwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes example {
+    from {top:0px; background-color: rgba(255, 255, 0, 0);}
+    to {top:200px;}
+
+}
+
+#ster {
+ position:absolute;
+ top: 0;
+ right: 800px;
+ left: 150px;
+}
+
+footer {
+  position:absolute;
+  bottom: 0;
+  top: 650px;
+  right: 500px;
+  left: 8px;
+}
+
+body {
+  background-image: url(https://media.istockphoto.com/illustrations/christmas-winter-holiday-red-background-illustration-id1191282362?k=20&m=1191282362&s=612x612&w=0&h=Myy3Ut-ZtKxhPhV6-gzfKZJNhg6IlDaVlOSTB2tAcnk=);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+img {
+
+  height: 800px;
+}
